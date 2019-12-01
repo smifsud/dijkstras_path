@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15D6D8E923935AB100DD4C93 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15D6D8E823935AB100DD4C93 /* AppDelegate.swift */; };
+		15D6D8EB23935AB100DD4C93 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15D6D8EA23935AB100DD4C93 /* SceneDelegate.swift */; };
+		15D6D8ED23935AB100DD4C93 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15D6D8EC23935AB100DD4C93 /* ViewController.swift */; };
+		15D6D8F023935AB100DD4C93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15D6D8EE23935AB100DD4C93 /* Main.storyboard */; };
+		15D6D8F223935AB200DD4C93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15D6D8F123935AB200DD4C93 /* Assets.xcassets */; };
+		15D6D8F523935AB200DD4C93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15D6D8F323935AB200DD4C93 /* LaunchScreen.storyboard */; };
+		15D6D90023935AB200DD4C93 /* Dijkstra_s_PathTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15D6D8FF23935AB200DD4C93 /* Dijkstra_s_PathTests.swift */; };
+		15D6D90B23935AB200DD4C93 /* Dijkstra_s_PathUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15D6D90A23935AB200DD4C93 /* Dijkstra_s_PathUITests.swift */; };
+		15D6D91A23935AE200DD4C93 /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15D6D91923935AE200DD4C93 /* Node.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		15D6D8FC23935AB200DD4C93 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 15D6D8DD23935AB100DD4C93 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15D6D8E423935AB100DD4C93;
+			remoteInfo = "Dijkstra's Path";
+		};
+		15D6D90723935AB200DD4C93 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 15D6D8DD23935AB100DD4C93 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15D6D8E423935AB100DD4C93;
+			remoteInfo = "Dijkstra's Path";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		15D6D8E523935AB100DD4C93 /* Dijkstra's Path.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dijkstra's Path.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		15D6D8E823935AB100DD4C93 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		15D6D8EA23935AB100DD4C93 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		15D6D8EC23935AB100DD4C93 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		15D6D8EF23935AB100DD4C93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		15D6D8F123935AB200DD4C93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		15D6D8F423935AB200DD4C93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		15D6D8F623935AB200DD4C93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15D6D8FB23935AB200DD4C93 /* Dijkstra's PathTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dijkstra's PathTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		15D6D8FF23935AB200DD4C93 /* Dijkstra_s_PathTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dijkstra_s_PathTests.swift; sourceTree = "<group>"; };
+		15D6D90123935AB200DD4C93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15D6D90623935AB200DD4C93 /* Dijkstra's PathUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dijkstra's PathUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		15D6D90A23935AB200DD4C93 /* Dijkstra_s_PathUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dijkstra_s_PathUITests.swift; sourceTree = "<group>"; };
+		15D6D90C23935AB200DD4C93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15D6D91923935AE200DD4C93 /* Node.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		15D6D8E223935AB100DD4C93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15D6D8F823935AB200DD4C93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15D6D90323935AB200DD4C93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15D6D8DC23935AB100DD4C93 = {
+			isa = PBXGroup;
+			children = (
+				15D6D8E723935AB100DD4C93 /* Dijkstra's Path */,
+				15D6D8FE23935AB200DD4C93 /* Dijkstra's PathTests */,
+				15D6D90923935AB200DD4C93 /* Dijkstra's PathUITests */,
+				15D6D8E623935AB100DD4C93 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		15D6D8E623935AB100DD4C93 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				15D6D8E523935AB100DD4C93 /* Dijkstra's Path.app */,
+				15D6D8FB23935AB200DD4C93 /* Dijkstra's PathTests.xctest */,
+				15D6D90623935AB200DD4C93 /* Dijkstra's PathUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		15D6D8E723935AB100DD4C93 /* Dijkstra's Path */ = {
+			isa = PBXGroup;
+			children = (
+				15D6D8E823935AB100DD4C93 /* AppDelegate.swift */,
+				15D6D8EA23935AB100DD4C93 /* SceneDelegate.swift */,
+				15D6D8EC23935AB100DD4C93 /* ViewController.swift */,
+				15D6D91923935AE200DD4C93 /* Node.swift */,
+				15D6D8EE23935AB100DD4C93 /* Main.storyboard */,
+				15D6D8F123935AB200DD4C93 /* Assets.xcassets */,
+				15D6D8F323935AB200DD4C93 /* LaunchScreen.storyboard */,
+				15D6D8F623935AB200DD4C93 /* Info.plist */,
+			);
+			path = "Dijkstra's Path";
+			sourceTree = "<group>";
+		};
+		15D6D8FE23935AB200DD4C93 /* Dijkstra's PathTests */ = {
+			isa = PBXGroup;
+			children = (
+				15D6D8FF23935AB200DD4C93 /* Dijkstra_s_PathTests.swift */,
+				15D6D90123935AB200DD4C93 /* Info.plist */,
+			);
+			path = "Dijkstra's PathTests";
+			sourceTree = "<group>";
+		};
+		15D6D90923935AB200DD4C93 /* Dijkstra's PathUITests */ = {
+			isa = PBXGroup;
+			children = (
+				15D6D90A23935AB200DD4C93 /* Dijkstra_s_PathUITests.swift */,
+				15D6D90C23935AB200DD4C93 /* Info.plist */,
+			);
+			path = "Dijkstra's PathUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		15D6D8E423935AB100DD4C93 /* Dijkstra's Path */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15D6D90F23935AB200DD4C93 /* Build configuration list for PBXNativeTarget "Dijkstra's Path" */;
+			buildPhases = (
+				15D6D8E123935AB100DD4C93 /* Sources */,
+				15D6D8E223935AB100DD4C93 /* Frameworks */,
+				15D6D8E323935AB100DD4C93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dijkstra's Path";
+			productName = "Dijkstra's Path";
+			productReference = 15D6D8E523935AB100DD4C93 /* Dijkstra's Path.app */;
+			productType = "com.apple.product-type.application";
+		};
+		15D6D8FA23935AB200DD4C93 /* Dijkstra's PathTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15D6D91223935AB200DD4C93 /* Build configuration list for PBXNativeTarget "Dijkstra's PathTests" */;
+			buildPhases = (
+				15D6D8F723935AB200DD4C93 /* Sources */,
+				15D6D8F823935AB200DD4C93 /* Frameworks */,
+				15D6D8F923935AB200DD4C93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				15D6D8FD23935AB200DD4C93 /* PBXTargetDependency */,
+			);
+			name = "Dijkstra's PathTests";
+			productName = "Dijkstra's PathTests";
+			productReference = 15D6D8FB23935AB200DD4C93 /* Dijkstra's PathTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		15D6D90523935AB200DD4C93 /* Dijkstra's PathUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15D6D91523935AB200DD4C93 /* Build configuration list for PBXNativeTarget "Dijkstra's PathUITests" */;
+			buildPhases = (
+				15D6D90223935AB200DD4C93 /* Sources */,
+				15D6D90323935AB200DD4C93 /* Frameworks */,
+				15D6D90423935AB200DD4C93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				15D6D90823935AB200DD4C93 /* PBXTargetDependency */,
+			);
+			name = "Dijkstra's PathUITests";
+			productName = "Dijkstra's PathUITests";
+			productReference = 15D6D90623935AB200DD4C93 /* Dijkstra's PathUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		15D6D8DD23935AB100DD4C93 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Spiro Mifsud";
+				TargetAttributes = {
+					15D6D8E423935AB100DD4C93 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					15D6D8FA23935AB200DD4C93 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 15D6D8E423935AB100DD4C93;
+					};
+					15D6D90523935AB200DD4C93 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 15D6D8E423935AB100DD4C93;
+					};
+				};
+			};
+			buildConfigurationList = 15D6D8E023935AB100DD4C93 /* Build configuration list for PBXProject "Dijkstra's Path" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 15D6D8DC23935AB100DD4C93;
+			productRefGroup = 15D6D8E623935AB100DD4C93 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				15D6D8E423935AB100DD4C93 /* Dijkstra's Path */,
+				15D6D8FA23935AB200DD4C93 /* Dijkstra's PathTests */,
+				15D6D90523935AB200DD4C93 /* Dijkstra's PathUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		15D6D8E323935AB100DD4C93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15D6D8F523935AB200DD4C93 /* LaunchScreen.storyboard in Resources */,
+				15D6D8F223935AB200DD4C93 /* Assets.xcassets in Resources */,
+				15D6D8F023935AB100DD4C93 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15D6D8F923935AB200DD4C93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15D6D90423935AB200DD4C93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		15D6D8E123935AB100DD4C93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15D6D8ED23935AB100DD4C93 /* ViewController.swift in Sources */,
+				15D6D8E923935AB100DD4C93 /* AppDelegate.swift in Sources */,
+				15D6D8EB23935AB100DD4C93 /* SceneDelegate.swift in Sources */,
+				15D6D91A23935AE200DD4C93 /* Node.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15D6D8F723935AB200DD4C93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15D6D90023935AB200DD4C93 /* Dijkstra_s_PathTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15D6D90223935AB200DD4C93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15D6D90B23935AB200DD4C93 /* Dijkstra_s_PathUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		15D6D8FD23935AB200DD4C93 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 15D6D8E423935AB100DD4C93 /* Dijkstra's Path */;
+			targetProxy = 15D6D8FC23935AB200DD4C93 /* PBXContainerItemProxy */;
+		};
+		15D6D90823935AB200DD4C93 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 15D6D8E423935AB100DD4C93 /* Dijkstra's Path */;
+			targetProxy = 15D6D90723935AB200DD4C93 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		15D6D8EE23935AB100DD4C93 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15D6D8EF23935AB100DD4C93 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		15D6D8F323935AB200DD4C93 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15D6D8F423935AB200DD4C93 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		15D6D90D23935AB200DD4C93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		15D6D90E23935AB200DD4C93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		15D6D91023935AB200DD4C93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AYSJQ5FJHQ;
+				INFOPLIST_FILE = "Dijkstra's Path/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "materialcause.com.Dijkstra-s-Path";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		15D6D91123935AB200DD4C93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AYSJQ5FJHQ;
+				INFOPLIST_FILE = "Dijkstra's Path/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "materialcause.com.Dijkstra-s-Path";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		15D6D91323935AB200DD4C93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AYSJQ5FJHQ;
+				INFOPLIST_FILE = "Dijkstra's PathTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "materialcause.com.Dijkstra-s-PathTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dijkstra's Path.app/Dijkstra's Path";
+			};
+			name = Debug;
+		};
+		15D6D91423935AB200DD4C93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AYSJQ5FJHQ;
+				INFOPLIST_FILE = "Dijkstra's PathTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "materialcause.com.Dijkstra-s-PathTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dijkstra's Path.app/Dijkstra's Path";
+			};
+			name = Release;
+		};
+		15D6D91623935AB200DD4C93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AYSJQ5FJHQ;
+				INFOPLIST_FILE = "Dijkstra's PathUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "materialcause.com.Dijkstra-s-PathUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Dijkstra's Path";
+			};
+			name = Debug;
+		};
+		15D6D91723935AB200DD4C93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AYSJQ5FJHQ;
+				INFOPLIST_FILE = "Dijkstra's PathUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "materialcause.com.Dijkstra-s-PathUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Dijkstra's Path";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15D6D8E023935AB100DD4C93 /* Build configuration list for PBXProject "Dijkstra's Path" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15D6D90D23935AB200DD4C93 /* Debug */,
+				15D6D90E23935AB200DD4C93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15D6D90F23935AB200DD4C93 /* Build configuration list for PBXNativeTarget "Dijkstra's Path" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15D6D91023935AB200DD4C93 /* Debug */,
+				15D6D91123935AB200DD4C93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15D6D91223935AB200DD4C93 /* Build configuration list for PBXNativeTarget "Dijkstra's PathTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15D6D91323935AB200DD4C93 /* Debug */,
+				15D6D91423935AB200DD4C93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15D6D91523935AB200DD4C93 /* Build configuration list for PBXNativeTarget "Dijkstra's PathUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15D6D91623935AB200DD4C93 /* Debug */,
+				15D6D91723935AB200DD4C93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 15D6D8DD23935AB100DD4C93 /* Project object */;
+}
